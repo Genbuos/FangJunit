@@ -1,6 +1,5 @@
 import org.junit.jupiter.api.Test;
-import twoSum.Solution;
-
+import arrays.Solution;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TwoSumSolution {
@@ -28,9 +27,5 @@ public class TwoSumSolution {
         Solution s = new Solution();
         int[] expected = {0,2};
         assertArrayEquals(expected, s.twoSum(nums, target) );
-
     }
-
-
-
 }

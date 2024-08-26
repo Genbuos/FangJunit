@@ -1,7 +1,7 @@
-package twoSum;
+package arrays;
 
 import java.util.HashMap;
-
+//TODO Refactor className for this file and its test counter part.
 public class Solution {
     public int[] twoSum(int[] nums, int target){
         HashMap<Integer, Integer> numMap = new HashMap<>();
