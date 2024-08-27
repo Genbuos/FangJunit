@@ -1,5 +1,4 @@
 import arrays.CWMWSolution;
-import arrays.Solution;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,6 +1,11 @@
 package arrays;
 
 public class CWMWSolution {
+    /**
+     *
+     * @param nums
+     * @return the max area inside the array
+     */
     public int mostWater(int[] nums){
         int maxArea = 0;
         int p1 = 0;
