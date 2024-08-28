@@ -2,7 +2,7 @@ import arrays.CWMWSolution;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class CWMWSolutionTest {
+public class CWMWTest {
     @Test
     void testCase1(){
         int[] nums = {1,8,6,2,5,4,8,3,7};
