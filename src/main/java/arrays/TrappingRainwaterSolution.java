@@ -1,6 +1,11 @@
 package arrays;
 
 public class TrappingRainwaterSolution {
+    /**
+     *
+     * @param nums
+     * @return
+     */
     public int solve(int[] nums){
 
         int totalWater = 0;

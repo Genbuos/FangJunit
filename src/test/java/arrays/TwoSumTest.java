@@ -1,5 +1,7 @@
+package arrays;
+
 import org.junit.jupiter.api.Test;
-import arrays.TwoSumSolution;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TwoSumTest {
