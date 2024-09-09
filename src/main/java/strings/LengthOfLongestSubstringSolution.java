@@ -1,5 +1,6 @@
 package strings;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class LengthOfLongestSubstringSolution {
@@ -22,13 +23,13 @@ public class LengthOfLongestSubstringSolution {
         }
 
         for(int p1 =0; p1 < str.length(); p1++){
-            HashMap<Integer, Character> seenChars = new HashMap<>();
+            ArrayList<Character> seenChars = new ArrayList<>();
             int currentLength = 0;
             for(int p2 = p1; p2 < str.length(); p2++){
                 var currentChar = str.charAt(p2);
-                if(!seenChars.containsValue(currentChar)){
+                if(!seenChars.contains(currentChar)){
                 currentLength++;
-                seenChars.put(p2, currentChar);
+                seenChars.add(currentChar);
                 maxLength = Math.max(currentLength, maxLength);
                 }else{
                     break;
