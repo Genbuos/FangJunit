@@ -10,7 +10,7 @@ public class ValidPalindromeSolution {
                 left++;
             }
 
-            while ((left < right && !Character.isLetterOrDigit(str.charAt(right)))){
+            while (left < right && !Character.isLetterOrDigit(str.charAt(right))){
                 right--;
             }
             if(Character.toLowerCase(str.charAt(left)) != Character.toLowerCase(str.charAt(right))){
