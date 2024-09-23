@@ -1,5 +1,7 @@
 package strings;
 
+import java.io.File;
+
 public class ValidPalindromeSolution {
     public boolean vps(String str){
         int left = 0;
@@ -20,6 +22,10 @@ public class ValidPalindromeSolution {
             right--;
         }
 
+
         return true;
     }
+
+
+
 }

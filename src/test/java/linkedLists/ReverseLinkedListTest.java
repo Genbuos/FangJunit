@@ -1,4 +1,4 @@
-package LinkedLists;
+package linkedLists;
 
 import linkedlists.ReverseLinkedListSolution;
 import org.junit.jupiter.api.Test;
