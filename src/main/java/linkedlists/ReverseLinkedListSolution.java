@@ -3,7 +3,7 @@ package linkedlists;
 import java.util.List;
 
 public class ReverseLinkedListSolution {
-    public static class ListNode {
+    public static class ListNode extends ReverseLinkedListIISolution.ListNode {
         int val;
         public ListNode next;
         public ListNode() {}
